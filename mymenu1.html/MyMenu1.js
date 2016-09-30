@@ -1,9 +1,10 @@
 ﻿
 /*!
  * JavaScript code for drop-down menu (created: July 23, 2016)
- * Copyright (c) 2003-2016 Drop Down Menu Generator. All rights reserved.
+ * Copyright (c) 2013-2016 Drop Down Menu Generator. All rights reserved.
  * http://www.dropdownmenugenerator.com
  * http://www.apnsoft.com
+ * promoted by: http://www.mybloggerguides.com
  */
 var cmn=new cmnc();function cmnc(){this.ComponentName='APNSoft WebControls JS source file.';this.Version='Version 4.1 (22)';this.Copyright='Copyright (C) APNSoft. All rights reserved.';this.uid=null;this.mX=0;this.mY=0;this.InsVrb=null;this.RqsBg=null;this.RqsDrt=null;this.HrfEnb=true;this.TmrFdOn=null;this.FdOnId='';this.BdX=0; this.BdY=0; this.ErrHr=function(ex,args){try{var wen=cmn.Gisv('wen');if(wen!='true')return;var msg='Error! APNSoft Control was unable to perform an operation.';if(ex.lineNumber){msg+='\r\nLine Number: '+ex.lineNumber;}var cp=args[0];if(cp){msg+='\r\nObject: '+cp;}if(ex.description){msg+='\r\nDescription: '+ex.description;}if(args.callee){var prcs=new String(args.callee);var re;re=new RegExp('(/\\*)([^/]|([^\\*]/))*\\*/','gi');prcs=prcs.replace(re,'');re=new RegExp('\/\/.*\r\n','gi');prcs=prcs.replace(re,'\r\n');re=new RegExp('\t','gi');prcs=prcs.replace(re,'');re=new RegExp('^\s{2,}','gi');prcs=prcs.replace(re,'');re=new RegExp('\r[\\s]*\n','gi');prcs=prcs.replace(re,'\r\n');re=new RegExp('\n','gi');prcs=prcs.replace(re,'');re=new RegExp('\r','gi');prcs=prcs.replace(re,'');prcs=prcs.substring(0,500)+'...';msg+='\r\n\r\nException Details:\r\n'+prcs;}msg+='\r\n\r\nPlease contact support at http:\/\/www.apnsoft.com/';alert(msg);}catch(ex){}return true;};this.AddEvt=function(el,evt,fn,bubble){if("addEventListener" in el){
 try{
